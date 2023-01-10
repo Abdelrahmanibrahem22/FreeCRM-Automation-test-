@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Login" class="navigator-link">
+              <span class="suite-name border-failed">Login</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Login" class="navigator-link ">
+                    <span>C:\Users\SMART\eclipse-workspace\FreeCRMAApplication\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Login" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Login" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Login" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Login" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Login" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Login" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods failed suite-Login"> (hide)</a> <!-- hide-methods failed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods failed suite-Login"> (show)</a> <!-- show-methods failed suite-Login -->
+                    </span>
+                    <div class="method-list-content failed suite-Login">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.HomePageTest" class="method navigator-link" hash-for-method="urlCheck">urlCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Login -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Login" class="hide-methods passed suite-Login"> (hide)</a> <!-- hide-methods passed suite-Login -->
+                      <a href="#" panel-name="suite-Login" class="show-methods passed suite-Login"> (show)</a> <!-- show-methods passed suite-Login -->
+                    </span>
+                    <div class="method-list-content passed suite-Login">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="clickContactCheck(public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws j...)">clickContactCheck(public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="clickCustomersCheck(public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws...)">clickCustomersCheck(public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="clickFeaturesCheck(public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws ...)">clickFeaturesCheck(public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="clickHomeCheck(public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java...)">clickHomeCheck(public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="clickPricingCheck(public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws j...)">clickPricingCheck(public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws j...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="clickSignUpCheck(public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws ja...)">clickSignUpCheck(public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws ja...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(abdo@abo.com, abd123123)">loginTest(abdo@abo.com, abd123123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(abdo@yahoo.com, abdo1230)">loginTest(abdo@yahoo.com, abdo1230)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest(hat2003, Test@123)">loginTest(hat2003, Test@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="logoCheck(public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.I...)">logoCheck(public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="titleTest(public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.I...)">titleTest(public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.I...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.HomePageTest" class="method navigator-link" hash-for-method="titleTest">titleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Login" title="com.freecrm.testcases.LoginPageTest" class="method navigator-link" hash-for-method="urlCheck(public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IO...)">urlCheck(public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IO...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Login -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Login" class="panel Login">
+          <div class="suite-Login-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.freecrm.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="urlCheck">
+                  </a> <!-- urlCheck -->
+                  <span class="method-name">urlCheck</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [https://classic.freecrm.com/index.cfm?CFID=2102726&amp;CFTOKEN=823b7dcc29de5e26-87F7B7DD-BF3F-6DE4-EBD85681188A5C8C&amp;jsessionid=a630b2c92f5d9626563e1110d23674de3b31] but found [https://classic.freecrm.com/index.cfm?CFID=132615&amp;CFTOKEN=33201820&amp;jsessionid=b630e86a0dc714b4321d2136e2e416573b3c]
+	at com.freecrm.testcases.HomePageTest.urlCheck(HomePageTest.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-failed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.freecrm.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleTest">
+                  </a> <!-- titleTest -->
+                  <span class="method-name">titleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+          <div class="suite-Login-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.freecrm.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickContactCheck(public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws j...)">
+                  </a> <!-- clickContactCheck(public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws j...) -->
+                  <span class="method-name">clickContactCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCustomersCheck(public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws...)">
+                  </a> <!-- clickCustomersCheck(public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws...) -->
+                  <span class="method-name">clickCustomersCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickFeaturesCheck(public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws ...)">
+                  </a> <!-- clickFeaturesCheck(public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws ...) -->
+                  <span class="method-name">clickFeaturesCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickHomeCheck(public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java...)">
+                  </a> <!-- clickHomeCheck(public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java...) -->
+                  <span class="method-name">clickHomeCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPricingCheck(public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws j...)">
+                  </a> <!-- clickPricingCheck(public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws j...) -->
+                  <span class="method-name">clickPricingCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignUpCheck(public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws ja...)">
+                  </a> <!-- clickSignUpCheck(public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws ja...) -->
+                  <span class="method-name">clickSignUpCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(abdo@abo.com, abd123123)">
+                  </a> <!-- loginTest(abdo@abo.com, abd123123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(abdo@abo.com, abd123123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(abdo@yahoo.com, abdo1230)">
+                  </a> <!-- loginTest(abdo@yahoo.com, abdo1230) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(abdo@yahoo.com, abdo1230)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(hat2003, Test@123)">
+                  </a> <!-- loginTest(hat2003, Test@123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(hat2003, Test@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoCheck(public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.I...)">
+                  </a> <!-- logoCheck(public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.I...) -->
+                  <span class="method-name">logoCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleTest(public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.I...)">
+                  </a> <!-- titleTest(public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.I...) -->
+                  <span class="method-name">titleTest</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="urlCheck(public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IO...)">
+                  </a> <!-- urlCheck(public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IO...) -->
+                  <span class="method-name">urlCheck</span>
+                  <span class="parameters">(public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Login-class-passed -->
+        </div> <!-- panel Login -->
+        <div panel-name="test-xml-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SMART\eclipse-workspace\FreeCRMAApplication\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Login&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HL&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.freecrm.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.freecrm.testcases.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HL --&gt;
+&lt;/suite&gt; &lt;!-- Login --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HL (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Login');
+function tableData_Login() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(0, 3, 9123);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickSignUpCheck')
+data.setCell(1, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(1, 3, 6007);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickContactCheck')
+data.setCell(2, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(2, 3, 4965);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickHomeCheck')
+data.setCell(3, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(3, 3, 4615);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickFeaturesCheck')
+data.setCell(4, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(4, 3, 4513);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginTest')
+data.setCell(5, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(5, 3, 4120);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(6, 3, 3975);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickCustomersCheck')
+data.setCell(7, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(7, 3, 3550);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickPricingCheck')
+data.setCell(8, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(8, 3, 3537);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logoCheck')
+data.setCell(9, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(9, 3, 570);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'titleTest')
+data.setCell(10, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(10, 3, 475);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'urlCheck')
+data.setCell(11, 2, 'com.freecrm.testcases.LoginPageTest')
+data.setCell(11, 3, 417);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'titleTest')
+data.setCell(12, 2, 'com.freecrm.testcases.HomePageTest')
+data.setCell(12, 3, 39);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'urlCheck')
+data.setCell(13, 2, 'com.freecrm.testcases.HomePageTest')
+data.setCell(13, 3, 32);
+window.suiteTableData['Login']= { tableData: data, tableDiv: 'times-div-Login'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-Login">
+              </div> <!-- times-div-Login -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Login</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Login" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.freecrm.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">urlCheck</span>
+                <span class="method-start">18032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">18072 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">titleTest</span>
+                <span class="method-start">33379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">33420 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.freecrm.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35684 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(abdo@abo.com, abd123123)</span>
+                <span class="method-start">42740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">46875 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(abdo@yahoo.com, abdo1230)</span>
+                <span class="method-start">54157 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">58134 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58535 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(hat2003, Test@123)</span>
+                <span class="method-start">65334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">74460 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">titleTest(public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.I...)</span>
+                <span class="method-start">80762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">81256 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">81710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">urlCheck(public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IO...)</span>
+                <span class="method-start">87843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">88264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88867 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoCheck(public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.I...)</span>
+                <span class="method-start">95614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">96186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">96768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickHomeCheck(public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java...)</span>
+                <span class="method-start">103415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">108031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">108486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickSignUpCheck(public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws ja...)</span>
+                <span class="method-start">115533 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">121542 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">121893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickPricingCheck(public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws j...)</span>
+                <span class="method-start">128225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">131765 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">132141 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickFeaturesCheck(public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws ...)</span>
+                <span class="method-start">138948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">143463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">143844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickCustomersCheck(public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws...)</span>
+                <span class="method-start">150713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">154269 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">154691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickContactCheck(public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws j...)</span>
+                <span class="method-start">161360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">166326 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

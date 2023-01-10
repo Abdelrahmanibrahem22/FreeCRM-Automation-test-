@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T05:01:05 EET" name="Login" finished-at="2023-01-10T05:03:52 EET" duration-ms="166878">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T05:01:05 EET" name="HL" finished-at="2023-01-10T05:03:52 EET" duration-ms="166878">
+      <class name="com.freecrm.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.HomePageTest@7ea9e1e2]" started-at="2023-01-10T05:01:05 EET" name="setUp" finished-at="2023-01-10T05:01:23 EET" duration-ms="18027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="urlCheck()[pri:1, instance:com.freecrm.testcases.HomePageTest@7ea9e1e2]" started-at="2023-01-10T05:01:23 EET" name="urlCheck" finished-at="2023-01-10T05:01:23 EET" duration-ms="32" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [https://classic.freecrm.com/index.cfm?CFID=2102726&CFTOKEN=823b7dcc29de5e26-87F7B7DD-BF3F-6DE4-EBD85681188A5C8C&jsessionid=a630b2c92f5d9626563e1110d23674de3b31] but found [https://classic.freecrm.com/index.cfm?CFID=132615&CFTOKEN=33201820&jsessionid=b630e86a0dc714b4321d2136e2e416573b3c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [https://classic.freecrm.com/index.cfm?CFID=2102726&CFTOKEN=823b7dcc29de5e26-87F7B7DD-BF3F-6DE4-EBD85681188A5C8C&jsessionid=a630b2c92f5d9626563e1110d23674de3b31] but found [https://classic.freecrm.com/index.cfm?CFID=132615&CFTOKEN=33201820&jsessionid=b630e86a0dc714b4321d2136e2e416573b3c]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.freecrm.testcases.HomePageTest.urlCheck(HomePageTest.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.freecrm.testcases.HomePageTest@7ea9e1e2]" started-at="2023-01-10T05:01:23 EET" name="close" finished-at="2023-01-10T05:01:23 EET" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.HomePageTest@7ea9e1e2]" started-at="2023-01-10T05:01:23 EET" name="setUp" finished-at="2023-01-10T05:01:38 EET" duration-ms="14907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="titleTest()[pri:2, instance:com.freecrm.testcases.HomePageTest@7ea9e1e2]" started-at="2023-01-10T05:01:38 EET" name="titleTest" finished-at="2023-01-10T05:01:38 EET" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.freecrm.testcases.HomePageTest@7ea9e1e2]" started-at="2023-01-10T05:01:38 EET" name="close" finished-at="2023-01-10T05:01:39 EET" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.freecrm.testcases.HomePageTest -->
+      <class name="com.freecrm.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:01:41 EET" name="setUp" finished-at="2023-01-10T05:01:48 EET" duration-ms="7056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:01:48 EET" name="loginTest" data-provider="test_data" finished-at="2023-01-10T05:01:52 EET" duration-ms="4120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abdo@abo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abd123123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:01:52 EET" name="quit" finished-at="2023-01-10T05:01:52 EET" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:01:52 EET" name="setUp" finished-at="2023-01-10T05:01:59 EET" duration-ms="6828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:01:59 EET" name="loginTest" data-provider="test_data" finished-at="2023-01-10T05:02:03 EET" duration-ms="3975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abdo@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abdo1230]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:03 EET" name="quit" finished-at="2023-01-10T05:02:03 EET" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:03 EET" name="setUp" finished-at="2023-01-10T05:02:10 EET" duration-ms="6799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:10 EET" name="loginTest" data-provider="test_data" finished-at="2023-01-10T05:02:19 EET" duration-ms="9123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hat2003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:19 EET" name="quit" finished-at="2023-01-10T05:02:20 EET" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:20 EET" name="setUp" finished-at="2023-01-10T05:02:26 EET" duration-ms="5949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="titleTest(java.lang.reflect.Method)[pri:1, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:26 EET" name="titleTest" finished-at="2023-01-10T05:02:26 EET" duration-ms="475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.titleTest(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:26 EET" name="quit" finished-at="2023-01-10T05:02:27 EET" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:27 EET" name="setUp" finished-at="2023-01-10T05:02:33 EET" duration-ms="6133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="urlCheck(java.lang.reflect.Method)[pri:2, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:33 EET" name="urlCheck" finished-at="2023-01-10T05:02:33 EET" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.urlCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:33 EET" name="quit" finished-at="2023-01-10T05:02:34 EET" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:34 EET" name="setUp" finished-at="2023-01-10T05:02:41 EET" duration-ms="6747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoCheck(java.lang.reflect.Method)[pri:3, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:41 EET" name="logoCheck" finished-at="2023-01-10T05:02:41 EET" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.logoCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:41 EET" name="quit" finished-at="2023-01-10T05:02:42 EET" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:42 EET" name="setUp" finished-at="2023-01-10T05:02:48 EET" duration-ms="6646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickHomeCheck(java.lang.reflect.Method)[pri:4, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:48 EET" name="clickHomeCheck" finished-at="2023-01-10T05:02:53 EET" duration-ms="4615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.clickHomeCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickHomeCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:53 EET" name="quit" finished-at="2023-01-10T05:02:53 EET" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:02:53 EET" name="setUp" finished-at="2023-01-10T05:03:00 EET" duration-ms="7047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickSignUpCheck(java.lang.reflect.Method)[pri:5, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:00 EET" name="clickSignUpCheck" finished-at="2023-01-10T05:03:06 EET" duration-ms="6007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.clickSignUpCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignUpCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:06 EET" name="quit" finished-at="2023-01-10T05:03:07 EET" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:07 EET" name="setUp" finished-at="2023-01-10T05:03:13 EET" duration-ms="6332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickPricingCheck(java.lang.reflect.Method)[pri:6, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:13 EET" name="clickPricingCheck" finished-at="2023-01-10T05:03:17 EET" duration-ms="3537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.clickPricingCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPricingCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:17 EET" name="quit" finished-at="2023-01-10T05:03:17 EET" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:17 EET" name="setUp" finished-at="2023-01-10T05:03:24 EET" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickFeaturesCheck(java.lang.reflect.Method)[pri:7, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:24 EET" name="clickFeaturesCheck" finished-at="2023-01-10T05:03:28 EET" duration-ms="4513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.clickFeaturesCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFeaturesCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:28 EET" name="quit" finished-at="2023-01-10T05:03:29 EET" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:29 EET" name="setUp" finished-at="2023-01-10T05:03:36 EET" duration-ms="6869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickCustomersCheck(java.lang.reflect.Method)[pri:8, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:36 EET" name="clickCustomersCheck" finished-at="2023-01-10T05:03:39 EET" duration-ms="3550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.clickCustomersCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCustomersCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:39 EET" name="quit" finished-at="2023-01-10T05:03:40 EET" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:40 EET" name="setUp" finished-at="2023-01-10T05:03:46 EET" duration-ms="6669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickContactCheck(java.lang.reflect.Method)[pri:9, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:46 EET" name="clickContactCheck" finished-at="2023-01-10T05:03:51 EET" duration-ms="4965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.freecrm.testcases.LoginPageTest.clickContactCheck(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContactCheck -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.freecrm.testcases.LoginPageTest@2f217633]" started-at="2023-01-10T05:03:51 EET" name="quit" finished-at="2023-01-10T05:03:52 EET" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.freecrm.testcases.LoginPageTest -->
+    </test> <!-- HL -->
+  </suite> <!-- Login -->
+</testng-results>

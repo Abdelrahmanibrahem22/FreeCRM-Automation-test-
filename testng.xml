@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login">
+  <test thread-count="5" name="HL">
+    <classes>
+      <class name="com.freecrm.testcases.HomePageTest"/>
+      <class name="com.freecrm.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- HL -->
+</suite> <!-- Home&Login -->

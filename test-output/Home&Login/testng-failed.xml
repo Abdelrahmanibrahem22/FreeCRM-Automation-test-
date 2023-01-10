@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Home&amp;Login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HL(failed)">
+    <classes>
+      <class name="com.freecrm.testcases.HomePageTest">
+        <methods>
+          <include name="urlCheck"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.HomePageTest -->
+      <class name="com.freecrm.testcases.LoginPageTest">
+        <methods>
+          <include name="clickPricingCheck" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="titleTest" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="clickFeaturesCheck" invocation-numbers="0"/>
+          <include name="clickContactCheck" invocation-numbers="0"/>
+          <include name="clickHomeCheck" invocation-numbers="0"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="clickSignUpCheck" invocation-numbers="0"/>
+          <include name="logoCheck" invocation-numbers="0"/>
+          <include name="urlCheck" invocation-numbers="0"/>
+          <include name="clickCustomersCheck" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- HL(failed) -->
+</suite> <!-- Failed suite [Home&Login] -->
